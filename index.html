@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FLC Flix V4</title>
+      <link rel="stylesheet" href="custom.css">
+      <link rel="stylesheet" href="timer.css">
+      <link rel="stylesheet" href="menu.css">
+      <link rel="stylesheet" href="search.css">
+      <link rel="icon" href="img/FLC-Flix_4-logo_v2_logo.png">
+    </head>
+    <body>
+      <div class="popup" id="popup">
+        <!-- Contenu du popup -->
+        <h2>FLC-Flix_4.0_prot_1.0</h2>
+        <p>Prototype nouvelle interface Patch Note</p>
+        <button id="closeButton">Fermer</button>
+      </div>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="series.html">SEries</a></li>
+            <li><a href="documentaire.html">DocumEntaires</a></li>
+            <li><a href="settings.html">ParamEtres</a></li>
+            <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
+            <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
+            <li class="flc-flix-logo"><a href="#top"><img src="img/FLC_Flix_logo.png" width="100"></a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="header-patch">
+        <nav class="patchnote-box">
+          <ul>
+            <li><a id="showPopupButton">Ouvrir le Patch Note</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="fake-header" id="top">
+        <nav>
+          <ul>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="series.html">SEries</a></li>
+            <li><a href="documentaire.html">DocumEntaires</a></li>
+            <li><a href="settings.html">ParamEtres</a></li>
+            <li><a href="https://flcorp.github.io/flchill/" target="_blank">FLChill</a></li>
+            <li><a href="https://sites.google.com/view/flcorporation/accueil" target="_blank">FLCorporation</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class="main1">
+        <section id="hero-section">
+            <div class="logo-container">
+              <img src="img/FLC-Flix_4-logo_v2.png" alt="Logo" class="logo">
+            </div>
+          <p>Un site développer par la <strong>FLCorp-web&copy;</strong></p>
+          <p>Version <strong>4.0.0</strong></p>
+        </section>
+      </main>
+
+      <main>
+        <section id="about-section">
+          <a href="films.html"><img src="img/FLC-Flix_4-Films-logo_v1.png" class="fsd-logo"></a>
+          <br>
+        </section>
+        <section id="about-section">
+          <a href="series.html"><img src="img/FLC-Flix_4-Series-logo_v1.png" class="fsd-logo"></a>
+          <br>
+        </section>
+        <section id="about-section">
+          <a href="documentaire.html"><img src="img/FLC-Flix_4-Documentaires-logo_v1.png" class="fsd-logo doc-logo"></a>
+          <br>
+        </section>
+
+          <section id="services-section" class="services-section">
+            <h1><strong>Barre de REcherchE</strong></h1>
+            <h1 id="search-advertissement">
+              ⚠ Veuillez à mettre des Majuscules au début de vos recherches et à chaques mot, sauf pour les
+              "un" "de" "les"... si ce n'est pas le premier mot de votre recherche
+            </h1>
+            <div id="search-container">
+              <input type="text" id="search-input" placeholder="REcherchE">
+            </div>
+            <ul id="result-list">
+              <!-- Cette liste sera remplie avec les résultats de la recherche -->
+            </ul>
+          </section>
+  
+          <section id="flcorporation">
+            <h2 class="flcorporation">Se rendre sur le Site de la FLCorporation</h2>
+            <a href="https://sites.google.com/view/flcorporation/accueil" target="_blank" class="btn2">FLCorporation</a>
+          </section>
+        </main>
+  
+        <div class="timer-img">
+          <img src="img/patch_note/flc-flix_4-1_logo.png" class="next-version-logo">
+        </div>
+
+        <div class="timer">
+          <span id="days">00</span> jours
+          <span id="hours">00</span> heures
+          <span id="minutes">00</span> minutes
+          <span id="seconds">00</span> secondes
+        </div>
+
+        <div class="important-message">
+          <p>FLC-Flix_4.0 development web site. FLC-Flix_4.0_prototype</p>
+        </div>
+
+      <footer>
+        <p>&copy; 2024 FLCorporation | &copy; FLCorp-Web<br> Héberger sous le service de Github</p>
+        <a id="showPopupButton"><button class="btn5">Ouvrir le Patch Note</button></a>
+      </footer>
+
+      <script src="timer.js"></script>
+      <script src="popup.js"></script>
+      <script src="menu.js"></script>
+      <script src="search.js"></script>
+  </body>
+</html>
